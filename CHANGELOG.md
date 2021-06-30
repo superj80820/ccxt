@@ -56,7 +56,7 @@
 - Fixed Huobi PRO fetchBalance return, [#328](https://github.com/ccxt-dev/ccxt/issues/328)
 - Fixed GMT → UTC with some exchanges in JavaScript [#325](https://github.com/ccxt-dev/ccxt/issues/325)
 - Yunbi, BTCChina, OKCoin CNY shutdown
-![btcchina shutdown](https://user-images.githubusercontent.com/1294454/31608027-6599291a-b277-11e7-97e7-80051840c66e.jpg)
+  ![btcchina shutdown](https://user-images.githubusercontent.com/1294454/31608027-6599291a-b277-11e7-97e7-80051840c66e.jpg)
 - Liqui and DSX unified (same BTC-e API)
 - Fixed BCC → BCH on DSX, [#83](https://github.com/ccxt-dev/ccxt/issues/83), [BCH](https://github.com/ccxt-dev/ccxt/search?q=bch&type=Issues)
 - Yobit and Liqui unified (same BTC-e API)
@@ -97,7 +97,7 @@
 - Removed a duplicate redefinition of `request()` from PHP, [#256](https://github.com/kroitor/ccxt/pull/256)
 - Fixed `throttle()` in PHP, [#254](https://github.com/kroitor/ccxt/pull/254)
 - Renamed CCXTError base exception class to BaseError
-- Added experimental limits and precision digits  to Kraken, Liqui, Binance, Poloniex
+- Added experimental limits and precision digits to Kraken, Liqui, Binance, Poloniex
 - Added missing markets to Binance
 - Added min/max trade limits to Bittrex and Cryptopia (experimental)
 
@@ -341,3 +341,5 @@
 - Orderbook APIs unified, [#3](https://github.com/kroitor/ccxt/issues/3)
 - Ticker APIs unified
 - Fixed GDAX fetch_trades, [#2](https://github.com/kroitor/ccxt/issues/2)
+
+test
